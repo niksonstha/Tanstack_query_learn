@@ -1,0 +1,22 @@
+.home-container {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  min-height: calc(100vh - 160px); /* Adjust for header + footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+}
